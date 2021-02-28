@@ -1,0 +1,91 @@
+/*
+Theme Name: My theeeme
+*/
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  padding-top: 80px;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+li {
+  padding: 20px 60px;
+  margin: 12px auto;
+  list-style-type: none !important;
+  border: solid 1px #ccc;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+li h3 {
+  color: #979797;
+}
+h5 ul li a {
+  width: 400px;
+}
+h5 ul li {
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  width: 60%;
+}
+li .more {
+  text-align: center;
+  color: #fff;
+  width: 120px;
+  background-color: #333;
+  padding: 12px 20px;
+  margin: auto;
+}
+li .more:hover {
+  color: #ff0;
+}
+
+.card-img-top {
+  height: auto;
+}
+/*detail pages */
+.detail {
+  width: 72%;
+  margin: auto;
+  background-color: #fff;
+}
+.details h3 {
+  color: rgb(161, 161, 161);
+}
+.details .content p {
+  width: 70% !important;
+}
+/*navifgation*/
+nav {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  position: fixed;
+}
+nav .menu {
+  width: 100%;
+  position: fixed;
+  background-color: #333;
+  height: 50px;
+  margin: 0;
+}
+nav ul li {
+  border: none;
+  padding: 0;
+}
+nav ul li a {
+  color: #fff;
+  text-align: center;
+}
+nav ul li a:hover {
+  color: #ff0;
+  text-decoration: none;
+}
