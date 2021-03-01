@@ -9,6 +9,7 @@ function mytheme_support()
     add_theme_support('post-thumbnails');
     add_theme_support('menus');
     register_nav_menu('header', 'Menu header');
+    register_nav_menu('footer', 'footer');
 };
 
 function register_assets()

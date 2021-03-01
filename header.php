@@ -11,10 +11,15 @@
 
 <body>
     <nav class="">
+        <a href="#" class="navbar-brand">
+            <?php bloginfo('name')
+            ?>
+        </a>
         <?php wp_nav_menu([
             'theme_location' => 'header',
             'container' => false,
-            'menu_class' => 'menu'
+            'menu_class' => 'menu',
         ]) ?>
+        <?= get_search_form() ?>
     </nav>
     <div class="container">
